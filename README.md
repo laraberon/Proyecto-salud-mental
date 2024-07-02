@@ -1,6 +1,6 @@
 # salud mental
 
-en nuestro proyecto, identificamos como problemática en nuestra comunidad la falta de apoyo y recursos para adolescentes que enfrentan crisis y problemas de salud mental.
+En nuestro proyecto, identificamos como problemática en nuestra comunidad la falta de apoyo y recursos para adolescentes que enfrentan crisis y problemas de salud mental.
 
 Los adolescentes son un grupo particularmente vulnerable y muchas veces no cuentan con el apoyo necesario para manejar situaciones de estrés, ansiedad, depresión y otros trastornos mentales, lo que puede tener consecuencias a largo plazo en su desarrollo y bienestar.
 
