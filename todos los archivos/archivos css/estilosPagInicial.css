@@ -1,0 +1,8 @@
+/* todos los títulos de color azul */
+/* selector de tipo elemento */
+h1 {color:rgb(76, 0, 255);
+}
+h3 {font-style: italic; 
+}
+#fuenteTitulo {font-style: italic; 
+}
