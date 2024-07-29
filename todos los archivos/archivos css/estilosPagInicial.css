@@ -1,8 +1,35 @@
-/* todos los títulos de color azul */
 /* selector de tipo elemento */
-h1 {color:rgb(76, 0, 255);
+h1 {
+    color: indigo;
+    font-style: italic;
+    text-align: center;
+    
 }
-h3 {font-style: italic; 
+
+p, h2, h3, h4, li, ul {
+    font-style: italic;
+    font-size:x-large;
+    
 }
-#fuenteTitulo {font-style: italic; 
+
+h4 {
+    text-align: center;
+}
+
+/* h3 clase*/ 
+.centro {
+    text-align:center;
+}
+
+.h2tamaño{
+    font-size: xx-large;
+    text-align: center;
+}
+
+/* id alinear imagen */ 
+.alinear-centro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
 }
