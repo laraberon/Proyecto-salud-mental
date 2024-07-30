@@ -33,3 +33,15 @@ h4 {
     justify-content: center;
     padding: 5px;
 }
+
+body {
+    background-color:rgb(243, 238, 243);
+}
+
+#colorsecciones {
+    background-color:rgb(238, 218, 255);
+}
+
+#fondolistadatos {
+    background-color: rgb(198, 189, 207);
+}
