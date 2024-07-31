@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salud mental</title>
+
     <!--vinculo a bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-     <!--vinculo css nuestros-->
+     
+    <!--vinculo css nuestros-->
   <link rel="stylesheet" href="../archivos css/estilosPagInicial.css">
-   
+
+  <!-- icono-->
+  <link rel="icon" type="image/x-icon" href="imágenes/search-heart.svg">
+  
 </head>
 
 <body>
   <!--barra de navegacion de boostrap-->
     <header> 
+      <div>
       <ul class="nav justify-content-center">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          <a class="nav-link active"  aria-current="page" href="#">Inicio</a>
         </li>
        
         
@@ -30,6 +37,7 @@
         <li class="nav-item">
           <a class="nav-link" href="../archivos html/contactanos formulario.html">Contactanos</a>
         </li>
+      
         <!--boton dropdown de secciones-->
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Otras secciones</a>
@@ -38,34 +46,30 @@
             <li><a class="dropdown-item" href="../archivos html/libros.html">Libros</a></li>
             <li><a class="dropdown-item" href="../archivos html/adicciones.html">Sobre adicciones</a></li>
             <li><a class="dropdown-item" href="../archivos html/recursos para padres.html">Recursos para padres</a></li>
-            
-            
+
           </ul>
         </li>
         
       </ul>
-
+    </div>
       </header>
 
   <main>
-    
-    <h1>¡Cuidar tu salud mental también es importante!</h1>
+    <div class="mx-auto p-2" style="width: 1000px;"> 
+        <h1>¡Cuidar tu salud mental también es importante!</h1>
          
-        <h3 class="centro"> La salud mental es el estado de bienestar emocional, psicológico y social de una persona.<br> Cuidarla es de vital importancia, ya que influye en la forma en la que pensamos, sentimos y actuamos cuando afrontamos las situaciones de la vida. </h3>
+        <h3>La salud mental es el estado de bienestar emocional, psicológico y social de una persona.<br> Cuidarla es de vital importancia, ya que influye en la forma en la que pensamos, sentimos y actuamos cuando afrontamos las situaciones de la vida. </h3>
     
-        <h3 class="centro"> Durante la adolescencia, los jóvenes atraviesan diversos cambios físicos, emocionales y sociales que pueden impactar su salud mental. Por lo tanto, estos años son cruciales para que desarrollen habilidades que les permitan manejar el estrés, establecer relaciones saludables y tomar decisiones acertadas.</h3>
+        <h3>Durante la adolescencia, los jóvenes atraviesan diversos cambios físicos, emocionales y sociales que pueden impactar su salud mental. Por lo tanto, estos años son cruciales para que desarrollen habilidades que les permitan manejar el estrés, establecer relaciones saludables y tomar decisiones acertadas.</h3>
     
-        <h4 class="centro"> Con nuestro proyecto, queremos brindarte apoyo y recordarte que no estás solo/a. Hay muchas maneras de mejorar tu salud mental y superar los desafíos. Te invitamos a recorrer este sitio web, donde hemos reunido con cariño una variedad de recursos para vos: talleres de concientización y educación sobre salud mental, grupos de apoyo, acceso a consejería profesional, y capacitación para padres y educadores en la identificación y manejo de problemas de salud mental en adolescentes. Estamos acá para acompañarte :)</h4>
-        
-    <!-- imágenes bloque-->
-     <div class="alinear-centro"> 
-         <img src="../imágenes/foto.jpg" width="40%" alt="Foto salud mental">
-         <img src="../imágenes/foto2.jpg" width="40%" alt="Foto 2 salud mental">
+        <h4> Con nuestro proyecto, queremos brindarte apoyo y recordarte que no estás solo/a. Hay muchas maneras de mejorar tu salud mental y superar los desafíos. Te invitamos a recorrer este sitio web, donde hemos reunido con cariño una variedad de recursos para vos: talleres de concientización y educación sobre salud mental, grupos de apoyo, acceso a consejería profesional, y capacitación para padres y educadores en la identificación y manejo de problemas de salud mental en adolescentes. Estamos acá para acompañarte :) </h4>
     </div>
+      
+
     <!-- bloque para datos-->
-         <div id="fondolistadatos"> 
+         <div id="fondolistadatos" class="mx-auto p-2" style="width: 1000px;" >
+             <ul > 
               <h2>Algunos datos</h2>
-             <ul> 
                 <li  class="colorLista"> En la argentina, la salud mental de los adolescentes enfrenta varios problemas serios. En los últimos 30 años, la tasa de suicidio entre adolescentes de 15 a 19 años se ha triplicado, llegando a 12,7 por cada 100.000 adolescentes. Es la segunda causa de muerte en este grupo de edad. </li>
                 <br> <li> La pandemia de COVID-19 empeoró la situación, aumentando los casos de ansiedad, depresión e ideas suicidas debido al aislamiento social y la interrupción de proyectos y relaciones sociales.</li>
                 <br> <li> Casi 16 millones de adolescentes en América Latina y el Caribe tienen alguna enfermedad mental, como ansiedad, depresión y trastornos de atención. En Argentina, las tasas de suicidio son especialmente altas en provincias como Catamarca, Salta y Jujuy. </li>
@@ -73,7 +77,12 @@
                 <br> <li> Estudios realizados por el Programa Nacional de Convivencia Escolar del Ministerio de Educación muestran que el bullying es un factor importante que afecta la salud mental de los adolescentes. Un alto porcentaje de estudiantes reporta haber sido víctima de acoso, lo que contribuye a la aparición de síntomas de ansiedad y depresión.</li>
                 <br> <li> La Encuesta Nacional de Salud y Bienestar Adolescente de 2018 reveló que más del 50% de los adolescentes con problemas de salud mental sienten que no pueden hablar abiertamente sobre sus problemas debido al estigma asociado.</li>
             </ul>
-          </div>
+          </div> 
+    <!-- imágenes bloque-->
+     <div> 
+      <img src="../imágenes/foto.jpg" class="rounded float-start" alt="Foto salud mental" width="20%">
+      <img src="../imágenes/foto2.jpg" class="rounded float-end" alt="Otra foto de salud mental" width="20%">
+    </div>
     <!-- video bloque-->
      <div class="alinear-centro"> 
             <iframe 
@@ -83,6 +92,8 @@
              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
             </iframe>
       </div>
+
+      
 </main>
 </body>
 </html>

@@ -6,32 +6,35 @@ h1 {
     
 }
 
-p, h2, h3, h4, li, ul {
-    font-style: italic;
-    font-size:x-large;
-    
+p, h3, h4, ul {
+    font-family:'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif; 
+    font-size:larger; 
+    justify-content: center;
+    align-items: center;
 }
 
-h4 {
-    text-align: center;
+li {
+    font-family:'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif; 
+    justify-content: center;
+    align-items: center;   
 }
 
-/* h3 clase*/ 
-.centro {
-    text-align:center;
-}
-
-.h2tamaño{
-    font-size: xx-large;
-    text-align: center;
-}
-
-/* id alinear imagen */ 
 .alinear-centro {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 5px;
+} 
+
+
+h4 {
+    text-align: center;
+    font-size: larger;
+}
+
+/* h3 clase*/ 
+.centro {
+    text-align:center;
 }
 
 body {
@@ -45,3 +48,12 @@ body {
 #fondolistadatos {
     background-color: rgb(198, 189, 207);
 }
+
+#violetaindigo {
+    color: indigo
+}
+
+.fondoclaro { 
+    background-color: rgb(238, 218, 255);
+}
+
