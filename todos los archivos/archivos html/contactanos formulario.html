@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,44 +11,55 @@
     <link rel="stylesheet" href="../archivos css/estilosPagInicial.css">
     <title>Formulario</title>
 </head>
+
 <body>
   <header> 
+    <!-- barra de navegación -->
     <ul class="nav justify-content-center">
-      <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="../archivos html/pagina de inicio salud mental.html">Volver al inicio</a>
+
+      <li 
+      class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../archivos html/pagina de inicio salud mental.html">Volver al inicio</a>
       </li>
-     
-      
-      <li class="nav-item">
-        <a class="nav-link" href="../archivos html/líneas de ayuda.html">Líneas de ayuda</a>
+      <li 
+      class="nav-item">
+          <a class="nav-link" href="../archivos html/líneas de ayuda.html">Líneas de ayuda</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="../archivos html/quienes somos.html">¿Quiénes somos?</a>
+      <li 
+      class="nav-item">
+          <a class="nav-link" href="../archivos html/quienes somos.html">¿Quiénes somos?</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="../archivos html/contactanos formulario.html">Contactanos</a>
+      <li 
+      class="nav-item">
+          <a class="nav-link" href="../archivos html/contactanos formulario.html">Contactanos</a>
       </li>
+
       <!--boton dropdown de secciones-->
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Otras secciones</a>
-        <ul class="dropdown-menu">
+      <li 
+      class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Otras secciones</a>
+        <ul class="dropdown-menu"id="colorsecciones">
           <li><a class="dropdown-item" href="../archivos html/cómo cuidar mi salud mental.html">Como cuidar tu salud mental</a></li>
           <li><a class="dropdown-item" href="../archivos html/libros.html">Libros</a></li>
           <li><a class="dropdown-item" href="../archivos html/adicciones.html">Sobre adicciones</a></li>
-          <li><a class="dropdown-item" href="../archivos html/recursos para padres.html">Recursos para padres</a></li>
-          
-          
+          <li><a class="dropdown-item" href="../archivos html/recursos para padres.html">Recursos para padres</a></li> 
         </ul>
       </li>
-      
-    </ul>
-
+    
     </header>
-</body>
-</html><form>
-    <input type="text" placeholder="Nombre">
-    <br> <input type="password" placeholder="Contraseña" > 
-    <br> <input type="submit">
-    <input type="reset"> 
 
-</form>
+    <main 
+      class="mx-auto p-2" style="width: 1000px;"> 
+      <!-- formulario-->
+        <form class="mx-auto p-2" style="width: 1000px;">
+          <input type="text" placeholder="Nombre">
+          <br> 
+          <input type="password" placeholder="Contraseña" > 
+          <br> 
+          <input type="submit">
+          <input type="reset"> 
+        </form>
+    </main>
+
+</body>
+</html>
