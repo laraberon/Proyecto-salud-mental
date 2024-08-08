@@ -2,12 +2,17 @@
 .card {
     margin-bottom: 20px; /* Espacio entre cartas */
 }
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
 /*por elemento*/
 body{background-color: rgb(118, 248, 161);
 }
 
-
-/* selector de tipo elemento */
 h1 {
     color: rgb(6, 60, 129);
     font-style: italic;
