@@ -1,6 +1,6 @@
 /* selector de tipo elemento */
 h1 {
-    color: indigo;
+    color: rgb(6, 60, 129);
     font-style: italic;
     text-align: center;
     
@@ -42,21 +42,21 @@ h3 {
 }
 
 body {
-    background-color:rgb(205, 175, 228);
+    background-color:rgb(116, 247, 197);
 }
 
 #colorsecciones {
-    background-color:rgb(183, 141, 219);
+    background-color:rgb(43, 224, 179);
 }
 
 #fondolistadatos {
-    background-color: rgb(198, 189, 207);
+    background-color: rgb(170, 225, 241);
 }
 
 #violetaindigo {
-    color: indigo
+    color: rgb(3, 50, 204)
 }
 
 .fondoclaro { 
-    background-color: rgb(163, 127, 194);
+    background-color: rgb(95, 224, 192);
 }

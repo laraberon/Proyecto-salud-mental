@@ -1,4 +1,7 @@
+/*por clase*/
 .card {
     margin-bottom: 20px; /* Espacio entre cartas */
 }
-
+/*por elemento*/
+body{background-color: rgb(116, 247, 197);
+}
