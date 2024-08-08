@@ -1,0 +1,40 @@
+/* selector de tipo elemento */
+h1 {
+    color: rgb(6, 60, 129);
+    font-style: italic;
+    text-align: center;
+    
+}
+
+p, h3, h4, ul {
+    font-family:'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif; 
+    font-size:larger; 
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    font-family:'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif; 
+    justify-content: center;
+    align-items: center;   
+}
+
+.alinear-centro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+} 
+
+
+h4 {
+    font-size: larger;
+    
+}
+
+h3 {
+    text-decoration: underline;
+}
+body {
+    background-color:rgb(116, 247, 197);
+}
