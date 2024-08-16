@@ -3,6 +3,7 @@
     margin-bottom: 20px; /* Espacio entre cartas */
     /*para cambiar el color de las cards tengo q poner un id*/
 }
+/*por id*/
 #cuadro {background-color: rgb(255, 255, 255);}
 .row {
     display: flex;
@@ -10,6 +11,8 @@
     align-items: center;
     height: 100vh;
   }
+ 
+
 /*por elemento*/
 body{background-color: rgb(170, 225, 241);
 }

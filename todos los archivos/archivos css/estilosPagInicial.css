@@ -1,13 +1,13 @@
 /* selector de tipo elemento */
 h1 {
     color: rgb(6, 60, 129);
-    font-style: italic;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     
 }
 
-p, h3, h4, ul {
-    font-family:'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif; 
+p,h2, h3, h4, ul,li {
+    font-family: 'Poppins', sans-serif; 
     font-size:larger; 
     justify-content: center;
     align-items: center;

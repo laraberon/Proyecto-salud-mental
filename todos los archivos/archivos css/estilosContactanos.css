@@ -38,3 +38,21 @@ h3 {
 body {
     background-color:rgb(182, 218, 204);
 }
+
+.field {
+    margin-bottom: 0.5rem; /* Reduce el espacio entre los campos */
+  }
+  .label {
+    font-size: 0.875rem; /* Reduce el tamaño de la fuente de las etiquetas */
+  }
+  .input, .textarea, .select {
+    font-size: 0.875rem; /* Reduce el tamaño de la fuente en los inputs y textarea */
+    padding: 0.5rem; /* Reduce el padding interno */
+  }
+  .button {
+    font-size: 0.875rem; /* Reduce el tamaño de la fuente en los botones */
+    padding: 0.5rem 1rem; /* Reduce el padding interno en los botones */
+  }
+  .help {
+    font-size: 0.75rem; /* Reduce el tamaño de la fuente en los mensajes de ayuda */
+  }
