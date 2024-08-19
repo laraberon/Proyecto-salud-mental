@@ -7,14 +7,14 @@ h1 {
 }
 
 p, h3, h4, ul {
-    font-family:'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif; 
+    font-family: 'Poppins', sans-serif;  
     font-size:larger; 
     justify-content: center;
     align-items: center;
 }
 
 li {
-    font-family:'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif; 
+    font-family: 'Poppins', sans-serif;  
     justify-content: center;
     align-items: center;   
 }
