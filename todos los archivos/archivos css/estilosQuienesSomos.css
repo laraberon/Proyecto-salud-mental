@@ -1,10 +1,19 @@
 /*por clase*/
 .card {
     margin-bottom: 20px; /* Espacio entre cartas */
-    /*para cambiar el color de las cards tengo q poner un id*/
+  
 }
+.notification-is-primary {
+    background-color: #f5f7f8; /* Color fondo del cuadro presentación*/
+   
+}
+
+  
 /*por id*/
 #cuadro {background-color: rgb(255, 255, 255);}
+
+
+
 .row {
     display: flex;
     justify-content: center;
