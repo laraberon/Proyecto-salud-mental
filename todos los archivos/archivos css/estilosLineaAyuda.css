@@ -38,3 +38,18 @@ h3 {
 body {
     background-color:rgb(182, 218, 204);
 }
+
+/* imagenes */
+.contenedor {
+    display: flex;
+    align-items: flex-start;
+    position: relative; /* Permite que los hijos sean posicionados relativamente */
+  }
+  
+  .imagen-izquierda {
+    width: 250px; /* Ajusta el tamaño de la imagen */
+    margin-right: 20px;
+    position: relative; /* Posiciona la imagen relativamente al contenedor */
+    left: -100px; /* Mueve la imagen hacia la izquierda fuera del contenedor */
+  }
+  
