@@ -1,5 +1,5 @@
 /*por clase*/
-.card {
+/*.card {
     margin-bottom: 20px; /* Espacio entre cartas */
   
 }
@@ -14,13 +14,13 @@
 
 
 
-.row {
+/*.row {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
   }
- 
+ */
 
 /*por elemento*/
 body{background-color: rgb(170, 225, 241);
