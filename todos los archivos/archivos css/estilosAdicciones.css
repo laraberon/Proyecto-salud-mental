@@ -38,3 +38,20 @@ h3 {
 body {
     background-color:rgb(182, 218, 204);
 }
+
+/*por clase*/
+
+.fixed-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Para asegurarte de que la barra esté encima de otros elementos */
+}
+.fixed-nav.navbar {
+    height: 60px; /* ajusta el tamaño de la nabvbar*/
+}
+.fixed-nav .navbar-item {
+    font-size: 14px; /* Ajusta el tamaño de letras en la navbar */
+    padding-top: 0;
+    padding-bottom: 0;
+}

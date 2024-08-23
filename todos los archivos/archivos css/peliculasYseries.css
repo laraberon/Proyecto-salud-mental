@@ -1,4 +1,8 @@
 /* selector de tipo elemento */
+body {
+    background-color:rgb(182, 218, 204);
+}
+
 h1 {
     color: rgb(6, 60, 129);
     font-family: 'Poppins', sans-serif;
@@ -19,12 +23,6 @@ li {
     align-items: center;   
 }
 
-.alinear-centro {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 5px;
-} 
 
 
 h4 {
@@ -41,6 +39,25 @@ h3 {
     text-align:center;
 }
 
-body {
-    background-color:rgb(182, 218, 204);
+.alinear-centro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+} 
+
+
+.fixed-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Para asegurarte de que la barra esté encima de otros elementos */
+}
+.fixed-nav.navbar {
+    height: 60px; /* ajusta el tamaño de la nabvbar*/
+}
+.fixed-nav .navbar-item {
+    font-size: 14px; /* Ajusta el tamaño de letras en la navbar */
+    padding-top: 0;
+    padding-bottom: 0;
 }

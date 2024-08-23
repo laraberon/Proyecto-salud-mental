@@ -1,26 +1,36 @@
 /*por clase*/
-/*.card {
-    margin-bottom: 20px; /* Espacio entre cartas */
-  
-}
+
+.alinear-centro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+} 
+
 .notification-is-primary {
     background-color: #f5f7f8; /* Color fondo del cuadro presentación*/
    
 }
-
+.fixed-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Para asegurarte de que la barra esté encima de otros elementos */
+}
+.fixed-nav.navbar {
+    height: 60px; /* ajusta el tamaño de la nabvbar*/
+}
+.fixed-nav .navbar-item {
+    font-size: 14px; /* Ajusta el tamaño de letras en la navbar */
+    padding-top: 0;
+    padding-bottom: 0;
+}
   
 /*por id*/
 #cuadro {background-color: rgb(255, 255, 255);}
 
 
 
-/*.row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
- */
 
 /*por elemento*/
 body{background-color: rgb(170, 225, 241);
@@ -28,8 +38,10 @@ body{background-color: rgb(170, 225, 241);
 
 h1 {
     color: rgb(6, 60, 129);
-    font-style: italic;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -50,11 +62,6 @@ li {
     align-items: center;   
 }
 
-.alinear-centro {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 5px;
-} 
+
 
 

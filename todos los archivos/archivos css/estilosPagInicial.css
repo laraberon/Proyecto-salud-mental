@@ -35,16 +35,38 @@ h4 {
 h3 {
     text-decoration: underline;
 }
-
-/* h3 clase*/ 
-.centro {
-    text-align:center;
-}
-
 body {
     background-color:rgb(182, 218, 204);
 }
+body {
+    padding-top: 60px; 
+}
 
+
+/*clase*/ 
+.centro {
+    text-align:center;
+}
+.fondoclaro { 
+    background-color: rgb(151, 207, 193);
+}
+
+.fixed-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Para asegurarte de que la barra esté encima de otros elementos */
+}
+.fixed-nav.navbar {
+    height: 60px; /* ajusta el tamaño de la nabvbar*/
+}
+.fixed-nav .navbar-item {
+    font-size: 14px; /* Ajusta el tamaño de letras en la navbar */
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/*por id*/
 #colorsecciones {
     background-color:rgb(118, 248, 161);
 }
@@ -57,7 +79,4 @@ body {
     color: rgb(3, 50, 204)
 }
 
-.fondoclaro { 
-    background-color: rgb(151, 207, 193);
-}
 
