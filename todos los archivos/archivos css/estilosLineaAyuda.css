@@ -73,4 +73,9 @@ body {
     padding-bottom: 0;
 }
 
-  
+.footer img {
+    width: auto; /* Restablece el tamaño original */
+    margin-right: 0; /* Elimina cualquier margen derecho */
+    position: static; /* Restablece la posición a la original */
+    left: 0; /* Elimina el desplazamiento hacia la izquierda */
+}
