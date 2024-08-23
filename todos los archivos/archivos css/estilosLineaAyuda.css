@@ -38,6 +38,9 @@ h3 {
 body {
     background-color:rgb(182, 218, 204);
 }
+body {
+    padding-top: 70px; /* Ajusta el espacio entre el contenido y la navbar*/
+}
 
 /* imagenes */
 .contenedor {

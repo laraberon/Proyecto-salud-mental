@@ -39,8 +39,9 @@ body {
     background-color:rgb(182, 218, 204);
 }
 body {
-    padding-top: 60px; 
+    padding-top: 70px; 
 }
+
 
 
 /*clase*/ 
@@ -50,6 +51,14 @@ body {
 .fondoclaro { 
     background-color: rgb(151, 207, 193);
 }
+
+.alinear-centro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+} 
+
 
 .fixed-nav {
     position: fixed;

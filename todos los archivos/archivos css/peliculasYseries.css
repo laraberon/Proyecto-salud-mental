@@ -2,6 +2,9 @@
 body {
     background-color:rgb(182, 218, 204);
 }
+body {
+    padding-top: 70px; /* Ajusta el espacio entre el contenido y la navbar*/
+}
 
 h1 {
     color: rgb(6, 60, 129);
