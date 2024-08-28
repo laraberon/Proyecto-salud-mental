@@ -172,8 +172,19 @@
              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
             </iframe>
       </div>
-
-      
+    <br>
+      <h1>Foro de Comentarios</h1>
+	<form id="comentario-form">
+		<label for="nombre">Nombre:</label>
+		<input type="text" id="nombre" name="nombre"><br><br>
+		<label for="comentario">Comentario:</label>
+		<textarea id="comentario" name="comentario"></textarea><br><br>
+		<input type="submit" value="Enviar comentario">
+		<input type="submit" value="Responder">
+	</form>
+	<div id="comentarios">
+		<!-- Los comentarios se mostrarán aquí -->
+	</div>
 </main>
   <!-- Nuestro Script -->
   <script src="../archivos js/archivo.js"> </script>  
