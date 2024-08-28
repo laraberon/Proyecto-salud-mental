@@ -1,9 +1,8 @@
-/* selector de tipo elemento */
+/* Estilos generales */
 h1 {
     color: rgb(6, 60, 129);
     font-style: italic;
     text-align: center;
-    
 }
 
 p, h3, h4, ul {
@@ -26,56 +25,43 @@ li {
     padding: 5px;
 } 
 
-
 h4 {
     font-size: larger;
-    
 }
 
 h3 {
     text-decoration: underline;
 }
+
 body {
     background-color:rgb(182, 218, 204);
-}
-body {
     padding-top: 70px; /* Ajusta el espacio entre el contenido y la navbar*/
 }
 
-/* imagenes */
+/* Imagenes en contenedores */
 .contenedor {
     display: flex;
     align-items: flex-start;
     position: relative; /* Permite que los hijos sean posicionados relativamente */
-  }
-  
-  .imagen-izquierda {
+}
+
+.imagen-izquierda {
     width: 250px; /* Ajusta el tamaño de la imagen */
     margin-right: 20px;
     position: relative; /* Posiciona la imagen relativamente al contenedor */
     left: -100px; /* Mueve la imagen hacia la izquierda fuera del contenedor */
-  }
-  
-.contenedor{border-color: blue;}
-
-.fixed-nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000; /* Para asegurarte de que la barra esté encima de otros elementos */
-}
-.fixed-nav.navbar {
-    height: 60px; /* ajusta el tamaño de la nabvbar*/
-}
-.fixed-nav .navbar-item {
-    font-size: 14px; /* Ajusta el tamaño de letras en la navbar */
-    padding-top: 0;
-    padding-bottom: 0;
 }
 
+.contenedor { 
+    border-color: blue;
+}
+
+/* Estilos específicos para las imágenes del footer */
 .footer img {
-    width: auto; /* Restablece el tamaño original */
-    margin-right: 0; /* Elimina cualquier margen derecho */
-    position: static; /* Restablece la posición a la original */
-    left: 0; /* Elimina el desplazamiento hacia la izquierda */
+    width: auto;
+    margin-right: 0;
+    position: initial; /* Restablece la posición a su valor inicial */
+    left: initial;     /* Restablece el desplazamiento a su valor inicial */
+    display: inline-block; /* Asegura que la imagen esté alineada según el flujo del documento */
 }
+
