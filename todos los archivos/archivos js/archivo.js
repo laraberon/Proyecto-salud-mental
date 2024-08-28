@@ -23,4 +23,4 @@ function agregarComentario(nombre, comentario) {
 		</div>
     `;
 	contenedorComentarios.innerHTML += comentarioHTML;
-}
+};
