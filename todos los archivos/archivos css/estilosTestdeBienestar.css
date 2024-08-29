@@ -1,20 +1,24 @@
 /* selector de tipo elemento */
 h1 {
-    color: rgb(6, 60, 129);
-    font-style: italic;
-    text-align: center;
+  color: rgb(6, 60, 129);
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
     
 }
 
 p, h3, h4, ul {
-    font-family:'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif; 
-    font-size:larger; 
-    justify-content: center;
-    align-items: center;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+    
+    
 }
 
 li {
-    font-family:'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif; 
+  font-family: 'Poppins', sans-serif;
     justify-content: center;
     align-items: center;   
 }
@@ -32,9 +36,7 @@ h4 {
     
 }
 
-h3 {
-    text-decoration: underline;
-}
+
 body {
     background-color:rgb(182, 218, 204);
 }
@@ -65,10 +67,10 @@ body {
     top: 0;
     width: 100%;
     z-index: 1000; /* Para asegurarte de que la barra esté encima de otros elementos */
-}
+  }
 .fixed-nav.navbar {
     height: 60px; /* ajusta el tamaño de la nabvbar*/
-}
+  }
 .fixed-nav .navbar-item {
     font-size: 14px; /* Ajusta el tamaño de letras en la navbar */
     padding-top: 0;
@@ -101,6 +103,7 @@ label {
 input[type="radio"] {
 	margin-right: 10px;
 }
+
 
 #resultados {
 	margin-top: 20px;

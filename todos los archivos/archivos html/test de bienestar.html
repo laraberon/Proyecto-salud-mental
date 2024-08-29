@@ -11,6 +11,9 @@
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
        <!--vinculo css nuestros-->
     <link rel="stylesheet" href="../archivos css/estilosTestdeBienestar.css">
+    <!--fuente linda de letra-->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
     <!-- icono-->
   <link rel="icon" type="image/x-icon" href="../imágenes/nuevoLogo-removebg-preview.png">
     <title>Test de Bienestar</title>
@@ -76,18 +79,7 @@
         </div>
       </div>
   
-      <div class="navbar-end">
-        <div class="navbar-item">
-          <div class="buttons">
-            <a class="button is-primary">
-              <strong>Sign up</strong>
-            </a>
-            <a class="button is-light">
-              Log in
-            </a>
-          </div>
-        </div>
-      </div>
+      
     </div>
   </nav>
   
@@ -96,9 +88,16 @@
     </header>
 
   <main>  
+    <div class="box">
     <h1>Test de Bienestar</h1>
+  </div>
+    <div class="box">
+      <h3>En Rincón Mental, nos preocupamos por tu bienestar. Nuestro Test de Bienestar está diseñado para ayudarte a entender cómo te sientes en este momento. A través de una serie de preguntas simples, podrás reflexionar sobre tu estado emocional, niveles de estrés y satisfacción general con la vida.</h3>
+    </div>
+    <div class="box">
     <form id="test-form">
       <!-- Preguntas del test -->
+       <div class="box">
       <div class="pregunta">
         <label>¿Cómo te sientes hoy?</label>
         <input type="radio" name="pregunta1" value="Bien"> Bien
@@ -128,9 +127,9 @@
         <input type="radio" name="pregunta5" value="No">No
       </div>
       <div class="pregunta">
-        <label>¿Has experimentado ansiedad, depreción o miedo quizás?</label>
+        <label>¿Has experimentado ansiedad, depresión o miedo</label>
         <input type="radio" name="pregunta6" value="Solo ansiedad">Solo ansiedad
-        <input type="radio" name="pregunta6" value="Solo depreción">Solo depreción
+        <input type="radio" name="pregunta6" value="Solo depreción">Solo depresión
         <input type="radio" name="pregunta6" value="Ansiedad y miedo">Ansiedad y miedo
         <input type="radio" name="pregunta6" value="No, ninguna">No, ninguna
       </div>	
@@ -147,7 +146,7 @@
         <input type="radio" name="pregunta8" value="No, nunca">No, nunca
       </div>
       <div class="pregunta">
-        <label>¿Has experimentado alguna situación de bullyng o acoso?</label>
+        <label>¿Has experimentado alguna situación de bullying o acoso?</label>
         <input type="radio" name="pregunta9" value="Sí, a veces">Sí, a veces
         <input type="radio" name="pregunta9" value="Sí, todo el tiempo">Sí, todo el tiempo
         <input type="radio" name="pregunta9" value="No, nunca">No, nunca
@@ -157,6 +156,8 @@
         <input type="radio" name="pregunta10" value="Sí">Sí
         <input type="radio" name="pregunta10" value="No">No
       </div>
+    </div>
+  </div>
   <!-- Resultados del test -->
   <div id="resultados"></div>
   <!-- Botón para enviar el test -->

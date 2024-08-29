@@ -25,6 +25,12 @@ li {
     justify-content: center;
     padding: 5px;
 } 
+.center-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
 
 
 h4 {
@@ -32,9 +38,7 @@ h4 {
     
 }
 
-h3 {
-    text-decoration: underline;
-}
+
 body {
     background-color:rgb(151, 207, 193);
 }
