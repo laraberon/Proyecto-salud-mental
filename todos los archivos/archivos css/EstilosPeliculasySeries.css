@@ -1,0 +1,42 @@
+h1 {
+    color: rgb(51,255,212);
+    text-align: center; 
+}
+
+h2,h3,h5 { 
+    font-size:small; 
+    justify-content: center;
+    align-items: center;
+}
+
+.accordion-body {
+    background-color: rgb(182, 218, 204);
+    color: black
+}
+
+body {
+    padding-top: 70px; /* Ajusta el espacio entre el contenido y la navbar*/
+}
+/*por clase*/
+
+.alinear-centro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+} 
+
+.fixed-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Para asegurarte de que la barra esté encima de otros elementos */
+}
+.fixed-nav.navbar {
+    height: 60px; /* ajusta el tamaño de la nabvbar*/
+}
+.fixed-nav .navbar-item {
+    font-size: 14px; /* Ajusta el tamaño de letras en la navbar */
+    padding-top: 0;
+    padding-bottom: 0;
+}
