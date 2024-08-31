@@ -64,19 +64,39 @@ body {
 } 
 
 
+
+
+/* Establecer la navbar como fija en la parte superior */
 .fixed-nav {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1000; /* Para asegurarte de que la barra esté encima de otros elementos */
+    z-index: 1000; /* Asegura que la barra esté encima de otros elementos */
 }
+
+/* Ajusta el tamaño de la navbar */
 .fixed-nav.navbar {
-    height: 60px; /* ajusta el tamaño de la nabvbar*/
+    height: 60px; /* Ajusta la altura de la navbar */
 }
+
+/* Ajusta el estilo de los elementos dentro de la navbar */
 .fixed-nav .navbar-item {
-    font-size: 14px; /* Ajusta el tamaño de letras en la navbar */
+    font-size: 14px; /* Ajusta el tamaño de las letras en la navbar */
     padding-top: 0;
     padding-bottom: 0;
+}
+
+/* Elimina el subrayado y mantiene el color original de los elementos dentro de la navbar */
+.fixed-nav, 
+.fixed-nav .navbar-item, 
+.fixed-nav .navbar-item * {
+    text-decoration: none !important; /* Elimina el subrayado */
+    color: inherit; /* Mantiene el color original */
+}
+
+/* Ajuste de padding en el body para evitar que la navbar cubra el contenido */
+body {
+    padding-top: 70px; /* Asegura que el contenido no quede oculto debajo de la navbar */
 }
 
 /*por id*/
@@ -94,9 +114,7 @@ body {
 
 /* foro de comentarios */
 
-body {
-	font-family: Arial, sans-serif;
-}
+
 
 #comentario-form {
 	width: 50%;

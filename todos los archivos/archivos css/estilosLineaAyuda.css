@@ -44,7 +44,7 @@ h1 {
 
 body {
     background-color:rgb(182, 218, 204);
-    padding-top: 70px; /* Ajusta el espacio entre el contenido y la navbar*/
+    padding-top: 0px; /* Ajusta el espacio entre el contenido y la navbar*/
 }
 
 /* Imagenes en contenedores */
@@ -75,4 +75,33 @@ body {
     left: initial;     /* Restablece el desplazamiento a su valor inicial */
     display: inline-block; /* Asegura que la imagen esté alineada según el flujo del documento */
 }
+/* Ajusta el contenido principal para que no quede cubierto por la navbar */
+.contenido-principal {
+    padding-top: 60px; /* Ajusta según la altura de tu navbar */
+}
 
+
+.fixed-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Para asegurarte de que la barra esté encima de otros elementos */
+}
+/* Elimina el subrayado de todos los elementos dentro de la navbar */
+.fixed-nav, 
+.fixed-nav .navbar-item, 
+.fixed-nav .navbar-item * {
+    text-decoration: none !important; /* Asegura que nada esté subrayado */
+    color: inherit; /* Mantén el color original de los elementos */
+}
+
+
+
+.fixed-nav.navbar {
+    height: 60px; /* ajusta el tamaño de la nabvbar*/
+}
+.fixed-nav .navbar-item {
+    font-size: 14px; /* Ajusta el tamaño de letras en la navbar */
+    padding-top: 0;
+    padding-bottom: 0;
+}

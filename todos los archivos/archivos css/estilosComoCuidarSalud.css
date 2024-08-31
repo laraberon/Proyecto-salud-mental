@@ -42,13 +42,22 @@ body {
     padding: 5px;
 } 
 
-
 .fixed-nav {
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000; /* Para asegurarte de que la barra esté encima de otros elementos */
 }
+/* Elimina el subrayado de todos los elementos dentro de la navbar */
+.fixed-nav, 
+.fixed-nav .navbar-item, 
+.fixed-nav .navbar-item * {
+    text-decoration: none !important; /* Asegura que nada esté subrayado */
+    color: inherit; /* Mantén el color original de los elementos */
+}
+
+
+
 .fixed-nav.navbar {
     height: 60px; /* ajusta el tamaño de la nabvbar*/
 }

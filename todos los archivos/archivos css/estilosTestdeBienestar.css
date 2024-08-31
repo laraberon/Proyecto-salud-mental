@@ -67,20 +67,27 @@ body {
     top: 0;
     width: 100%;
     z-index: 1000; /* Para asegurarte de que la barra esté encima de otros elementos */
-  }
+}
+/* Elimina el subrayado de todos los elementos dentro de la navbar */
+.fixed-nav, 
+.fixed-nav .navbar-item, 
+.fixed-nav .navbar-item * {
+    text-decoration: none !important; /* Asegura que nada esté subrayado */
+    color: inherit; /* Mantén el color original de los elementos */
+}
+
+
+
 .fixed-nav.navbar {
     height: 60px; /* ajusta el tamaño de la nabvbar*/
-  }
+}
 .fixed-nav .navbar-item {
     font-size: 14px; /* Ajusta el tamaño de letras en la navbar */
     padding-top: 0;
     padding-bottom: 0;
 }
-
 /* Estilos del test */
-body {
-	font-family: Arial, sans-serif;
-}
+
 
 #test-form {
 	width: 50%;
