@@ -28,6 +28,12 @@ h4 {
 h3 {
     text-decoration: underline;
 }
+
+
+.box {
+    margin-bottom: 20px;
+}
+
 body {
     background-color:rgb(182, 218, 204);
 }

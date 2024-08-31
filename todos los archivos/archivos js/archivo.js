@@ -39,5 +39,6 @@ form.addEventListener('submit', (e) => {
 		resultado = 'Tu bienestar es regular, debes tomar medidas para mejorar.';
 	}
 	
+	
 	resultados.innerHTML = resultado;
 });
