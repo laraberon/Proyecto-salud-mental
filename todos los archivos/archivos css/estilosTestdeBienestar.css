@@ -103,7 +103,6 @@ body {
 }
 
 label {
-	display: block;
 	margin-bottom: 10px;
 }
 
@@ -111,6 +110,11 @@ input[type="radio"] {
 	margin-right: 10px;
 }
 
+
+.respuestas {
+	display: flex;
+  justify-content: space-evenly;
+}
 
 #resultados {
 	margin-top: 20px;
